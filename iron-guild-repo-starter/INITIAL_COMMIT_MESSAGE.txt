@@ -1,0 +1,7 @@
+Initialize Iron Guild source-of-truth repo
+
+- add current campaign, prep system, roadmap, and decision log docs
+- add quest and skill-note build guides
+- establish clean repo structure for canonical project artifacts
+- reserve Git history as the versioning layer
+- leave quest-state doc out until the actual current file is available
