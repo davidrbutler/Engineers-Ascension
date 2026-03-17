@@ -1,0 +1,565 @@
+Current Revision ID: buildquest000001
+Last Ledger Change ID: chg000001
+Affected Ledger Change IDs:
+- chg000001
+
+# Building A Quest
+
+## Purpose
+
+This guide defines how quest artifacts are built.
+
+It exists to keep detailed quest-construction rules out of the stable source-of-truth docs while still preserving a repeatable production standard.
+
+This file is about production method, not campaign law.
+
+When in conflict, this document only governs its owned area.
+
+---
+
+## Ownership boundary
+
+### This document owns
+
+- the quest skeleton template
+- the quest’s role as a prep container
+- quest-level learning-goal structure
+- quest-level question curation structure
+- representative-question structure
+- interview-quality rep structure
+- optional harder-rep structure
+- exit-signal writing rules
+- quest-log template guidance
+- markdown-first build guidance
+- what belongs in a quest file vs what stays out
+
+### This document does **not** own
+
+- the campaign model itself
+- artifact-role definitions at the campaign layer
+- roadmap ordering
+- solving protocol rules
+- live project state
+- detailed skill-note construction rules
+- source-of-truth artifact workflow rules
+- cross-document change memory
+- presentation-layer development beyond current MVP / Alpha build guidance
+
+---
+
+## Update rule
+
+Update this guide when the quest-artifact construction standard changes.
+
+Examples:
+
+- changing the quest skeleton template
+- changing how learning goals are defined
+- changing how representative questions should be selected
+- changing how interview-quality questions should be selected
+- changing how optional harder reps should be framed
+- changing exit-signal rules
+- changing Quest Log template expectations
+- changing the active production posture for quests
+
+Do **not** update this file just because a specific quest changed content.
+
+---
+
+## Related docs
+
+- **Campaign**: owns campaign framing, quest architecture, and artifact-role definitions
+- **Roadmap**: owns quest ordering and broad sequencing logic
+- **Prep System**: owns solving protocol, supported-vs-proving rep rules, and execution workflow
+- **Project State**: owns what is active right now
+- **Building a Skill Note**: owns detailed skill / pattern note construction rules
+- **System Ledger**: owns major change memory and cross-file revision history
+
+---
+
+## Current build posture
+
+The live build standard is explicitly **Alpha / Graybox pedagogy-first**.
+
+That means:
+
+- quest artifacts should be plain and technical
+- almost all flavor text should be removed during active build
+- learning goals must be visible without themed framing
+- question curation should be explicit
+- exit standards should be observable
+- the quest should stay small enough to revise quickly
+- the quest should help real prep more than it helps presentation
+
+Interpretation rule:
+
+Do not confuse “lighter quest” with “weaker quest.”
+
+The quest is intentionally smaller so the educational object stays visible.
+
+---
+
+## Quest philosophy
+
+A quest is a prep container.
+
+Its job is to make the learning target legible and actionable.
+
+A strong quest should answer:
+
+- what is this quest trying to teach?
+- which questions best map to those goals?
+- which reps are proving reps?
+- which optional harder reps are useful stretch work?
+- what does honest completion look like?
+- where should reflection on the work be captured?
+
+A quest is **not**:
+
+- a flavor wrapper
+- a room-by-room dungeon page
+- a giant bundle of vaguely related problems
+- a duplicate of the skill note
+- a disguised archive
+- or a generic checklist with no teaching logic
+
+Interpretation rule:
+
+If the quest looks interesting but does not make the educational object clearer, it is weak.
+
+---
+
+## Relationship between note and quest
+
+### Skill / Pattern Note
+
+The skill note teaches:
+
+- what the pattern is
+- how to recognize it
+- what it does well
+- what it does not do
+- and how its mechanics branch into meaningful variants
+
+The quest should link to the note.
+It should not duplicate it.
+
+### Quest
+
+The quest turns that educational foundation into actual prep structure.
+
+The quest should own:
+
+- learning goals
+- representative questions
+- proving reps
+- optional harder reps
+- exit signals
+- quest-log support
+
+Interpretation rule:
+
+The note teaches the pattern.
+The quest teaches what to do with it.
+
+---
+
+## Core quest template
+
+During the current phase, a quest should generally include:
+
+1. Quest Name
+2. Purpose
+3. Learning Goals
+4. Linked Skill / Pattern Note
+5. Representative Questions
+6. Interview-Quality Questions
+7. Optional Harder Reps
+8. Exit Signals
+9. Quest Log / Work Diary
+10. Notes Status
+11. Curation Concerns
+
+That is enough.
+
+Do not add more structure unless it materially improves learning or execution.
+
+---
+
+## Section standards
+
+### 1. Quest Name
+
+Keep the name stable and clear.
+
+The name should identify the actual educational object cleanly.
+
+In the current build phase, clarity beats flavor.
+
+---
+
+### 2. Purpose
+
+This section should answer:
+
+- why this quest exists
+- what kind of capability it is trying to build
+- why it matters in interview prep
+
+Keep this short and technical.
+
+A good purpose section should orient the learner without slipping into worldbuilding or note duplication.
+
+---
+
+### 3. Learning Goals
+
+This is one of the most important sections in the quest.
+
+Learning goals should answer:
+
+- what the learner should understand by the end
+- what kinds of problem-solving behavior should improve
+- what kind of articulation should be possible after the quest
+
+Good learning goals are:
+
+- specific
+- mechanic-facing
+- observable
+- useful for question curation later
+
+Bad learning goals are:
+
+- vague
+- quota-based
+- prestige-driven
+- or just restating the quest name
+
+Interpretation rule:
+
+If the learning goals are weak, the question set will usually be weak too.
+
+---
+
+### 4. Linked Skill / Pattern Note
+
+This section should include:
+
+- the linked note title
+- a short line on why that note matters for this quest
+
+Do not paste the note into the quest.
+
+The note exists to provide the educational foundation.
+The quest exists to turn that foundation into actual reps and standards.
+
+---
+
+### 5. Representative Questions
+
+This section answers:
+
+> what questions best map to the quest’s learning goals?
+
+This is the first curation layer.
+
+These questions should be chosen because they are strong educational fits for the goals, not because they are simply famous or convenient.
+
+For each question, capture at least:
+
+- title
+- source label / number
+- why it belongs here
+- what goal or mechanic it serves
+
+Interpretation rule:
+
+Representative questions are not automatically the proving set.
+Their first job is to map the learning territory clearly.
+
+---
+
+### 6. Interview-Quality Questions
+
+This section answers:
+
+> which questions should the learner be able to solve and explain at real interview quality for this quest?
+
+This is the main proving-rep section.
+
+These questions should be:
+
+- representative
+- high-signal
+- non-redundant
+- strong enough to test real understanding
+
+For each question, capture at least:
+
+- title
+- source label / number
+- why it is in the proving set
+- which learning goal(s) it proves
+- whether it assumes any prerequisite skill beyond the quest’s core mechanic
+
+Interpretation rule:
+
+Do not let “interview-quality” become a synonym for “hard.”
+The question should prove the quest’s move, not just create suffering.
+
+---
+
+### 7. Optional Harder Reps
+
+This section answers:
+
+> what questions stretch the quest, combine it with another mechanic, or test deeper judgment?
+
+These are optional.
+
+They should be included only when they are genuinely relevant and educationally useful.
+
+For each harder rep, capture at least:
+
+- title
+- source label / number
+- why it is harder
+- what extra prerequisite it may assume
+- why it is still relevant rather than random
+
+Helpful phrasing:
+
+- also needs understanding of pattern X
+- also leans on heap / graph / sliding window / prefix sum / etc.
+- adds stronger implementation pressure
+- adds disguise or mixed-mechanic reasoning
+
+Interpretation rule:
+
+Optional harder reps should deepen the quest, not bloat it.
+
+---
+
+### 8. Exit Signals
+
+This section defines what must be true to move on honestly.
+
+Exit signals should be:
+
+- observable
+- tied to the learning goals
+- clear enough to reduce self-negotiation
+- restrained enough to avoid quota theater
+
+Good exit signals usually include things like:
+
+- can explain the core mechanic cleanly
+- can justify the representation
+- can distinguish this quest from nearby false friends
+- can solve the proving reps with interview structure
+- can articulate where the move breaks or hands off to another pattern
+
+Bad exit signals include things like:
+
+- “feels ready”
+- “seems comfortable”
+- “probably gets it”
+- giant hidden quotas
+- arbitrary repetition targets with no educational reason
+
+Interpretation rule:
+
+Exit signals should protect against fake clears without turning the quest into an anxiety ritual.
+
+---
+
+### 9. Quest Log / Work Diary
+
+Every quest should include a quest-log section or quest-log link.
+
+The quest log is the technical reflection artifact for the work.
+
+Its job is to record:
+
+- what was attempted
+- what was cleared
+- where execution broke
+- what kind of blocker it was
+- what should happen next
+
+The quest log should support real work reflection, not flavor writing.
+
+Keep it practical.
+
+---
+
+### 10. Notes Status
+
+This section should briefly state:
+
+- linked note status
+- quest status
+- whether curation is still provisional
+- whether later refinement is expected
+
+This helps prevent false completeness.
+
+---
+
+### 11. Curation Concerns
+
+This section should track the main open curation questions.
+
+Examples:
+
+- whether a question is the right representative fit
+- whether a proving rep is too redundant
+- whether a harder rep is actually relevant
+- whether a nearby mechanic is muddying the quest boundary
+
+Keep this short and useful.
+
+---
+
+## Question-capture standard
+
+For any question included in a quest, capture at least:
+
+- title
+- source label / number
+- why it belongs
+- what mechanic, disguise, or learning goal it maps to
+- whether it is representative, proving, or optional harder work
+- prerequisite skills if it assumes knowledge outside the core quest
+
+This is the minimum useful curation standard.
+
+Do not let question lists become raw lists with no reasoning.
+
+---
+
+## What stays out of the quest in this phase
+
+During the current Alpha / Graybox phase, keep these out of the quest:
+
+- room-by-room themed structure
+- Canonical Enemies / Elite Variants / Boss Chamber presentation as the primary build layer
+- full skill-note duplication
+- long flavor sections
+- giant reserve pools
+- full solution archives
+- code dumps
+- broad region summaries
+- active project-state tracking
+- historical rationale for every choice
+
+These may exist conceptually in the larger campaign model, but they should not drive active artifact production right now.
+
+Interpretation rule:
+
+If a section mainly serves presentation instead of pedagogy, cut it.
+
+---
+
+## Depth and compression rules
+
+### Good compression
+
+- keeps the quest small and usable
+- preserves the learning goals
+- preserves the reasoning behind the question set
+- keeps exit signals visible
+- makes revision faster without hollowing out the quest
+
+### Bad compression
+
+- leaves only a list of problems
+- hides the learning goals
+- removes why each question belongs
+- turns exit signals into vague slogans
+- makes the quest too thin to guide real prep
+
+### Good detail
+
+- clarifies why the quest exists
+- strengthens question selection
+- sharpens the proving set
+- reduces ambiguity about honest completion
+- improves the quality of later reps
+
+### Bad detail
+
+- bloats the quest with decorative structure
+- preserves themed sections that are not helping
+- duplicates the note
+- adds many problem lists with overlapping jobs
+- turns the quest into a mini textbook
+
+---
+
+## Refinement workflow
+
+Use a staged approach instead of trying to fully perfect every quest immediately.
+
+### Skeleton
+
+- quest name is clear
+- purpose exists
+- learning goals exist
+- linked note is clear
+- representative questions are selected
+- interview-quality questions are selected or mostly selected
+- exit signals exist
+- quest log exists or is linked
+- curation concerns are visible
+
+### Stable
+
+- learning goals are strong
+- question mapping is trustworthy
+- proving set is coherent
+- optional harder reps are relevant
+- exit signals are observable
+- obvious bloat is removed
+
+### Refined
+
+- wording is clean
+- question selection is strong
+- boundaries with nearby quests are sharper
+- exit signals are tighter
+- the quest supports repeated real use without confusion
+
+Current project rule:
+
+Do **not** try to fully polish every quest before the educational foundation and question mapping are trustworthy.
+
+---
+
+## Common failure modes to guard against
+
+- the quest becomes a themed wrapper instead of a prep container
+- the quest duplicates the note
+- learning goals are vague
+- representative questions are just famous problems rather than good fits
+- interview-quality questions are redundant or weak
+- optional harder reps are random suffering
+- exit signals are vague
+- curation concerns are hidden instead of acknowledged
+- the quest becomes prettier than it is useful
+
+---
+
+## Final interpretation rule
+
+The standard is not:
+
+- maximum flavor
+- maximum problem volume
+- maximum structure
+- or maximum polish
+
+The standard is:
+
+a small, technically clear prep container that makes the learning goals visible, the question curation trustworthy, and the exit standard honest.
